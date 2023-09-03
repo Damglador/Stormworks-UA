@@ -1,0 +1,25 @@
+{
+    "compilerOptions": {
+        "moduleResolution": "Node",
+        "resolveJsonModule": true,
+        "esModuleInterop": true,
+        "composite": true,
+        "experimentalDecorators": true,
+        "noImplicitAny": true,
+        "sourceMap": true,
+        "target": "ES6",
+        "lib": [
+            "es6",
+            "es2021"
+        ],
+        "typeRoots": [
+            "node_modules/@types"
+        ],
+        "allowJs": true
+    },
+    "include": [
+        "src/**/*",
+        "tests/**/*",
+        "scripts/**/*"
+    ],
+}
